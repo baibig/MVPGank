@@ -1,0 +1,12 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_text"
+    tools:context="com.pierce.mvpgank.ui.fragment.ImageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.pierce.mvpgank.widget.TouchImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/img"/>
+</FrameLayout>
